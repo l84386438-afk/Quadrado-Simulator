@@ -1,9 +1,0 @@
-quadrado {
-    position: absolute; 
-    left: 50%; 
-    top: 50%; 
-    background-color: brown; 
-    height: 100px; 
-    width: 100px; 
-    z-index: -1;
-}
