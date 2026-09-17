@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrado Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br><br><br><br><br><br>
+    <div class="botoes">
+        <button onclick=mover(1);>Em Cima</button>
+        <button onclick=mover(2);>Esquerda</button>
+        <button onclick=mover(3);>Direita</button>
+        <button onclick=mover(4);>Em Baixo</button>
+    </div>
+    
+    <p><p></p>
+    <div class="botoes2">
+    <button onclick="MudarCor('aqua')" class="botao_aqua botao"></button>
+    <button onclick="MudarCor('lime')" class="botao_lime botao"></button>
+    <button onclick="MudarCor('red')" class="botao_red botao"></button>
+    <button onclick="MudarCor('yellow')" class="botao_yellow botao"></button>
+    <button onclick="CorCustomizada()" class="botao_custom botao">+</button>
+    <button onclick="Jogos()" class="botao_jogos botao">+</button>
+    </div>
+
+    <br>
+
+    <div class="botoes3">
+    <button onclick="degrade1()" class="degrade1 botao"></button>
+    <button onclick="degrade2()" class="degrade2 botao"></button>
+    <button onclick="degrade3()" class="degrade3 botao"></button>
+    <button onclick="degrade4()" class="degrade4 botao"></button>
+    </div>
+
+    <quadrado id="quadrado"></quadrado>
+
+    <script src="script.js"></script>
+</body>
+</html>
